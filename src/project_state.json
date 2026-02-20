@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 13,
+  "summary": "Building a business website for Maa Tara Clutch Plate Repairing Center, a clutch repair shop specializing in truck, bus, and car clutch repairs and leather replacements.",
+  "architectural_notes": [],
+  "known_issues": [
+    "Deployed website address https://h5gkc-riaaa-aaaal-qnepa-cai.icp0.io is not working or accessible",
+    "Email address suvankar78saha@gmail.com not displaying correctly on deployed website despite being updated in code"
+  ],
+  "isFixRequest": true,
+  "existing_features": [
+    {
+      "id": "feature-create-a-professional-homepage-displaying-business-name-maa-tara-clutch-plate-repairing-center-with-clear-sections-for-services-offered",
+      "title": "Create a professional homepage displaying business name 'Maa Tara Clutch Plate Repairing Center' with clear sections for services offered",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-service-offerings-for-truck-clutch-repair-bus-clutch-repair-car-clutch-repair-and-clutch-leather-replacement-with-descriptions",
+      "title": "Display service offerings for truck clutch repair, bus clutch repair, car clutch repair, and clutch leather replacement with descriptions",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-embed-google-maps-showing-shop-location-using-the-provided-link-https-maps-app-goo-gl-qwnqgtdd4ejlymry8",
+      "title": "Embed Google Maps showing shop location using the provided link https://maps.app.goo.gl/QWNQgTdd4EJLymry8",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-contact-information-section-with-placeholder-fields-for-phone-number-email-and-business-hours",
+      "title": "Add contact information section with placeholder fields for phone number, email, and business hours",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-professional-automotive-mechanical-theme-with-warm-trustworthy-colors-and-clean-typography-throughout-the-site",
+      "title": "Apply a professional automotive/mechanical theme with warm, trustworthy colors and clean typography throughout the site",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-generated-hero-image-and-service-icons-as-static-assets-in-frontend-public-assets-generated",
+      "title": "Render generated hero image and service icons as static assets in frontend/public/assets/generated",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-verify-the-deployed-canister-url-https-h5gkc-riaaa-aaaal-qnepa-cai-icp0-io-is-accessible-and-serving-the-frontend-application-correctly",
+      "title": "Verify the deployed canister URL https://h5gkc-riaaa-aaaal-qnepa-cai.icp0.io is accessible and serving the frontend application correctly",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-verify-dfx-json-configuration-has-correct-canister-definitions-for-both-frontend-and-backend-with-proper-source-directories",
+      "title": "Verify dfx.json configuration has correct canister definitions for both frontend and backend with proper source directories",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-phone-number-displayed-in-the-contactsection-component-xpath-html-1-body-1-div-1-main-1-section-4-div-1-div-2-div-1-div-2-p-1-to-show-8013648470",
+      "title": "Update the phone number displayed in the ContactSection component (XPath: /html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[2]/div[1]/div[2]/p[1]) to show '8013648470'",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-email-address-displayed-in-the-contactsection-component-at-xpath-html-1-body-1-div-1-div-1-main-1-section-4-div-1-div-2-div-2-div-2-p-1-to-show-suvankar78saha-gmail-com",
+      "title": "Update the email address displayed in the ContactSection component at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/section[4]/div[1]/div[2]/div[2]/div[2]/p[1] to show 'suvankar78saha@gmail.com'",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-email-address-displayed-in-the-contactsection-component-to-show-suvankar78saha-gmail-com-and-verify-it-renders-correctly-in-the-browser",
+      "title": "Update the email address displayed in the ContactSection component to show 'suvankar78saha@gmail.com' and verify it renders correctly in the browser",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-rebuild-and-redeploy-the-application-to-the-internet-computer-with-all-existing-features-intact-ensuring-the-deployed-canister-url-https-h5gkc-riaaa-aaaal-qnepa-cai-icp0-io-becomes-accessible-and-serves-the-frontend-application-correctly",
+      "title": "Rebuild and redeploy the application to the Internet Computer with all existing features intact, ensuring the deployed canister URL https://h5gkc-riaaa-aaaal-qnepa-cai.icp0.io becomes accessible and serves the frontend application correctly",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create professional business website showcasing clutch repair services",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Display services for truck, bus, and car clutch repair and leather replacement",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Embed Google Maps location for shop address",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add contact details and business information",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Ensure frontend build output is properly configured for Internet Computer deployment with correct asset canister settings",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Update email contact information to suvankar78saha@gmail.com",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Verify dfx.json configuration has correct frontend and backend canister definitions with proper source directories and asset canister settings to ensure successful deployment to the Internet Computer",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Maa Tara Clutch Plate Repairing Center",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

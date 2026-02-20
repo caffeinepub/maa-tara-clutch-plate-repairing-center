@@ -1,0 +1,64 @@
+{
+  "kind": "build_request",
+  "title": "Retry deployment with existing configuration",
+  "projectName": "Maa Tara Clutch Repair",
+  "priority": "high",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "text": "Rebuild and redeploy the application to the Internet Computer with all existing features intact, ensuring the deployed canister URL https://h5gkc-riaaa-aaaal-qnepa-cai.icp0.io becomes accessible and serves the frontend application correctly",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "Yes do it again",
+          "build"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The canister URL https://h5gkc-riaaa-aaaal-qnepa-cai.icp0.io loads successfully in a browser",
+        "All existing features render correctly including the homepage, services sections, Google Maps, and contact information",
+        "The phone number 8013648470 displays correctly in the ContactSection component",
+        "The email address suvankar78saha@gmail.com displays correctly in the ContactSection component",
+        "All static assets including generated images load properly",
+        "No build or deployment errors occur during the process"
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Verify dfx.json configuration has correct frontend and backend canister definitions with proper source directories and asset canister settings to ensure successful deployment to the Internet Computer",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ]
+      },
+      "acceptanceCriteria": [
+        "dfx.json contains valid canister configurations for both frontend and backend",
+        "Frontend canister specifies correct source directory and asset handling",
+        "Backend canister points to the correct Motoko main actor file",
+        "Build process completes without configuration errors"
+      ]
+    }
+  ],
+  "constraints": [
+    "Preserve all existing features and functionality from the current implementation",
+    "Maintain the phone number 8013648470 in ContactSection",
+    "Maintain the email address suvankar78saha@gmail.com in ContactSection",
+    "Keep the Google Maps embed with URL https://maps.app.goo.gl/QWNQgTdd4EJLymry8",
+    "Preserve the professional automotive theme with warm colors and clean typography",
+    "Do not modify the single-actor backend architecture"
+  ],
+  "nonGoals": [
+    "Adding new features or functionality beyond what currently exists",
+    "Changing the visual design or color scheme",
+    "Modifying service descriptions or business information",
+    "Adding new contact methods or changing contact information format"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

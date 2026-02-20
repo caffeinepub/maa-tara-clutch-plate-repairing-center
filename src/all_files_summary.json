@@ -1,0 +1,20 @@
+{
+  "backend/main.mo": "Empty Motoko actor definition serving as the backend canister entry point.",
+  "feature_evidence.json": "Feature evidence report documenting the rebuild/redeploy feature with high confidence, linking ContactSection.tsx and multiple components to test REQ-13.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend files describing the single-page clutch repair business website with header, hero, services, location, contact sections, and footer components.",
+  "frontend/index.css": "Tailwind CSS configuration with custom OKLCH color variables for light and dark modes, defining warm automotive theme with amber/orange primary colors and charcoal grays.",
+  "frontend/index.html": "HTML entry point with meta tags, description for the clutch repair business, and script tag loading the React application from main.tsx.",
+  "frontend/src/App.tsx": "Root React component orchestrating the single-page layout with Header, HeroSection, ServicesSection, LocationSection, ContactSection, and Footer components.",
+  "frontend/src/components/ContactSection.tsx": "Contact section displaying phone (8013648470), email (suvankar78saha@gmail.com), and business hours in three cards with icons and hover effects.",
+  "frontend/src/components/Footer.tsx": "Footer with business summary, quick info list, copyright notice, and caffeine.ai attribution link with UTM tracking parameters.",
+  "frontend/src/components/Header.tsx": "Sticky header with wrench icon, business name 'Maa Tara Clutch Plate Repairing Center', and tagline in gradient background.",
+  "frontend/src/components/HeroSection.tsx": "Hero section with headline, service highlights for trucks/buses/cars, hero banner image with error handling fallback, and decorative badge.",
+  "frontend/src/components/LocationSection.tsx": "Location section with embedded Google Maps iframe and 'Get Directions' link to the shop's Google Maps location.",
+  "frontend/src/components/ServicesSection.tsx": "Services grid displaying four service cards (truck, bus, car clutch repair, leather replacement) with icons, descriptions, and lucide-react fallback icons on image load failure.",
+  "frontend/src/hooks/useActor.ts": "React hook using TanStack Query to create and manage authenticated or anonymous backend actor instances based on Internet Identity, invalidating dependent queries on actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React hook and provider for Internet Identity authentication on ICP, managing login state, identity persistence, and delegation validation with configurable AuthClient options.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a warm automotive-themed color palette for both light and dark modes using OKLCH color space.",
+  "frontend/src/main.tsx": "Application entry point that renders the React app with QueryClient and InternetIdentityProvider wrappers for state management and authentication.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom colors mapped to CSS variables, container settings, border radius utilities, animations, and typography/container query plugins.",
+  "project_state.json": "Project metadata tracking features, requirements, and known issues for Maa Tara Clutch Plate Repairing Center business website, noting deployment accessibility problems and email display issues."
+}

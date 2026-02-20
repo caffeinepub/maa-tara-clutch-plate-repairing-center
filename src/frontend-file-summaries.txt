@@ -1,0 +1,12 @@
+{
+  "frontend/src/App.tsx": "Main application component that orchestrates the single-page layout with Header, Hero, Services, Location, Contact sections and Footer, with explicit background color.",
+  "frontend/src/components/Header.tsx": "Sticky header component displaying the business name \"Maa Tara Clutch Plate Repairing Center\" with wrench icon and tagline in a warm gradient.",
+  "frontend/src/components/HeroSection.tsx": "Hero section with prominent headline, service highlights for trucks/buses/cars, hero banner image with error handling fallback, and decorative badge.",
+  "frontend/src/components/ServicesSection.tsx": "Services grid displaying four service cards with icons, descriptions, and fallback SVG icons using lucide-react when generated images fail to load.",
+  "frontend/src/components/LocationSection.tsx": "Location section with embedded Google Maps iframe and \"Get Directions\" link to the shop's location.",
+  "frontend/src/components/ContactSection.tsx": "Contact information section displaying phone number 8013648470, email suvankar78saha@gmail.com, and business hours in card format with icons.",
+  "frontend/src/components/Footer.tsx": "Footer component with business summary, quick info list, copyright notice, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/index.css": "Global styles defining warm automotive color theme using OKLCH color system with amber/orange primary colors, charcoal grays, and professional typography for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom color tokens, border radius, shadows, and system font stack for professional automotive aesthetic.",
+  "frontend/index.html": "HTML entry point with proper DOCTYPE, meta tags, and description for the clutch repair business website."
+}

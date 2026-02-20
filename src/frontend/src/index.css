@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        
+        /* Warm automotive theme - Light mode */
+        --background: 0.98 0.005 60;
+        --foreground: 0.20 0.015 30;
+        
+        --card: 1 0 0;
+        --card-foreground: 0.20 0.015 30;
+        
+        --popover: 1 0 0;
+        --popover-foreground: 0.20 0.015 30;
+        
+        /* Primary: Warm amber/orange - automotive/mechanical */
+        --primary: 0.60 0.18 45;
+        --primary-foreground: 0.98 0.005 60;
+        
+        /* Secondary: Deep charcoal */
+        --secondary: 0.35 0.02 30;
+        --secondary-foreground: 0.98 0.005 60;
+        
+        /* Muted: Light warm gray */
+        --muted: 0.95 0.01 60;
+        --muted-foreground: 0.50 0.02 30;
+        
+        /* Accent: Burnt orange */
+        --accent: 0.65 0.15 35;
+        --accent-foreground: 0.98 0.005 60;
+        
+        --destructive: 0.55 0.22 25;
+        --destructive-foreground: 0.98 0.005 60;
+        
+        --border: 0.88 0.01 60;
+        --input: 0.88 0.01 60;
+        --ring: 0.60 0.18 45;
+        
+        --chart-1: 0.60 0.18 45;
+        --chart-2: 0.65 0.15 35;
+        --chart-3: 0.55 0.12 50;
+        --chart-4: 0.70 0.20 40;
+        --chart-5: 0.50 0.10 30;
+    }
+
+    .dark {
+        /* Dark mode - warm industrial theme */
+        --background: 0.18 0.015 30;
+        --foreground: 0.95 0.01 60;
+        
+        --card: 0.22 0.02 30;
+        --card-foreground: 0.95 0.01 60;
+        
+        --popover: 0.22 0.02 30;
+        --popover-foreground: 0.95 0.01 60;
+        
+        /* Primary: Bright amber for dark mode */
+        --primary: 0.70 0.20 45;
+        --primary-foreground: 0.15 0.015 30;
+        
+        /* Secondary: Medium gray */
+        --secondary: 0.30 0.02 30;
+        --secondary-foreground: 0.95 0.01 60;
+        
+        --muted: 0.28 0.02 30;
+        --muted-foreground: 0.65 0.01 60;
+        
+        /* Accent: Warm orange */
+        --accent: 0.68 0.18 40;
+        --accent-foreground: 0.15 0.015 30;
+        
+        --destructive: 0.60 0.24 25;
+        --destructive-foreground: 0.95 0.01 60;
+        
+        --border: 0.30 0.02 30;
+        --input: 0.30 0.02 30;
+        --ring: 0.70 0.20 45;
+        
+        --chart-1: 0.70 0.20 45;
+        --chart-2: 0.68 0.18 40;
+        --chart-3: 0.65 0.15 50;
+        --chart-4: 0.75 0.22 42;
+        --chart-5: 0.60 0.12 35;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-bold;
+        letter-spacing: -0.02em;
+    }
+}
