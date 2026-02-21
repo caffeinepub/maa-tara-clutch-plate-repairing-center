@@ -1,64 +1,65 @@
 {
   "kind": "build_request",
-  "title": "Retry deployment with existing configuration",
-  "projectName": "Maa Tara Clutch Repair",
-  "priority": "high",
+  "title": "Add clutch plate logo beside business name in header",
+  "projectName": "Maa Tara Clutch Plate",
+  "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-13",
-      "text": "Rebuild and redeploy the application to the Internet Computer with all existing features intact, ensuring the deployed canister URL https://h5gkc-riaaa-aaaal-qnepa-cai.icp0.io becomes accessible and serves the frontend application correctly",
-      "target": "both",
+      "id": "REQ-16",
+      "text": "Generate a custom automotive-style clutch plate logo image depicting a clutch plate with a professional mechanical aesthetic that matches the warm, trustworthy color palette of the site",
+      "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-5"
+          "msg-user-add-logo",
+          "msg-user-logo-style-3"
         ],
         "quotes": [
-          "Yes do it again",
-          "build"
+          "Add some attractive CLUTCH plate logo beside Business name",
+          "Logo representation: What should the logo depict - a literal clutch plate"
         ]
       },
       "acceptanceCriteria": [
-        "The canister URL https://h5gkc-riaaa-aaaal-qnepa-cai.icp0.io loads successfully in a browser",
-        "All existing features render correctly including the homepage, services sections, Google Maps, and contact information",
-        "The phone number 8013648470 displays correctly in the ContactSection component",
-        "The email address suvankar78saha@gmail.com displays correctly in the ContactSection component",
-        "All static assets including generated images load properly",
-        "No build or deployment errors occur during the process"
+        "Logo image is generated showing a clutch plate design",
+        "Logo style matches the professional automotive theme",
+        "Logo uses colors from the warm automotive color palette defined in the site"
       ]
     },
     {
-      "id": "REQ-14",
-      "text": "Verify dfx.json configuration has correct frontend and backend canister definitions with proper source directories and asset canister settings to ensure successful deployment to the Internet Computer",
-      "target": "both",
+      "id": "REQ-17",
+      "text": "Update the Header component to display the generated clutch plate logo beside the business name 'Maa Tara Clutch Plate Repairing Center', positioning it to the left of the business name text",
+      "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-5"
+          "msg-user-add-logo"
+        ],
+        "quotes": [
+          "Add some attractive CLUTCH plate logo beside Business name"
         ]
       },
       "acceptanceCriteria": [
-        "dfx.json contains valid canister configurations for both frontend and backend",
-        "Frontend canister specifies correct source directory and asset handling",
-        "Backend canister points to the correct Motoko main actor file",
-        "Build process completes without configuration errors"
+        "Logo appears in the Header component beside the business name",
+        "Logo is positioned to the left of 'Maa Tara Clutch Plate Repairing Center' text",
+        "Logo renders from frontend/public/assets/generated as a static asset",
+        "Logo size is appropriate for the header layout and scales well on mobile devices"
       ]
     }
   ],
   "constraints": [
-    "Preserve all existing features and functionality from the current implementation",
-    "Maintain the phone number 8013648470 in ContactSection",
-    "Maintain the email address suvankar78saha@gmail.com in ContactSection",
-    "Keep the Google Maps embed with URL https://maps.app.goo.gl/QWNQgTdd4EJLymry8",
-    "Preserve the professional automotive theme with warm colors and clean typography",
-    "Do not modify the single-actor backend architecture"
+    "Do not modify backend/main.mo as no backend logic changes are needed",
+    "Logo must be rendered as a static asset from frontend/public/assets/generated",
+    "Maintain the existing Header component structure and styling",
+    "Preserve the warm automotive color palette and professional theme"
   ],
   "nonGoals": [
-    "Adding new features or functionality beyond what currently exists",
-    "Changing the visual design or color scheme",
-    "Modifying service descriptions or business information",
-    "Adding new contact methods or changing contact information format"
+    "Adding animation or interactive effects to the logo",
+    "Creating multiple logo variations or sizes",
+    "Modifying other sections beyond the Header component",
+    "Changing the business name text or tagline"
   ],
   "imageRequirements": {
-    "required": [],
+    "required": [
+      "Professional automotive-style clutch plate logo with mechanical details, metallic finish, and warm automotive colors matching the site theme (clutch-logo.dim_120x120.png)"
+    ],
     "edits": []
   }
 }

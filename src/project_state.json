@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 13,
+  "projectStateVersion": 17,
   "summary": "Building a business website for Maa Tara Clutch Plate Repairing Center, a clutch repair shop specializing in truck, bus, and car clutch repairs and leather replacements.",
   "architectural_notes": [],
   "known_issues": [
@@ -8,6 +8,7 @@
     "Email address suvankar78saha@gmail.com not displaying correctly on deployed website despite being updated in code"
   ],
   "isFixRequest": true,
+  "imageRequirements": "## Required Images\n- Professional automotive-style clutch plate logo with mechanical details, metallic finish, and warm automotive colors matching the site theme (clutch-logo.dim_120x120.png)",
   "existing_features": [
     {
       "id": "feature-create-a-professional-homepage-displaying-business-name-maa-tara-clutch-plate-repairing-center-with-clear-sections-for-services-offered",
@@ -104,6 +105,30 @@
         "REQ-13"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-update-the-business-hours-display-in-the-contactsection-component-to-show-open-everyday-on-the-first-line-and-7am-to-7pm-on-the-second-line-replacing-any-existing-placeholder-or-current-business-hours-text",
+      "title": "Update the business hours display in the ContactSection component to show 'Open everyday' on the first line and '7am to 7pm' on the second line, replacing any existing placeholder or current business hours text",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-a-custom-automotive-style-clutch-plate-logo-image-depicting-a-clutch-plate-with-a-professional-mechanical-aesthetic-that-matches-the-warm-trustworthy-color-palette-of-the-site",
+      "title": "Generate a custom automotive-style clutch plate logo image depicting a clutch plate with a professional mechanical aesthetic that matches the warm, trustworthy color palette of the site",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-header-component-to-display-the-generated-clutch-plate-logo-beside-the-business-name-maa-tara-clutch-plate-repairing-center-positioning-it-to-the-left-of-the-business-name-text",
+      "title": "Update the Header component to display the generated clutch plate logo beside the business name 'Maa Tara Clutch Plate Repairing Center', positioning it to the left of the business name text",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -151,6 +176,18 @@
       "reqIds": [
         "REQ-14"
       ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Update business hours to show 'Open everyday, 7am to 7pm'",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Generate and display custom clutch plate logo beside business name in header",
+      "reqIds": [],
       "status": "pending"
     }
   ],
